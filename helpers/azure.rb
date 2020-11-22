@@ -1,4 +1,4 @@
-def perform_analysis(service, document, key = "2d6a90e9fa9d40dba9cd8a2dd32f0208", endpoint = "https://falabella-challenge-review-ratings.cognitiveservices.azure.com/")
+def perform_analysis(service, document, key = "AZURE_KEY_TEXT_ANALYSIS", endpoint = "https://URL_TEXT_ANALYSIS.cognitiveservices.azure.com/")
   require "net/https"
   require "uri"
   require "json"
